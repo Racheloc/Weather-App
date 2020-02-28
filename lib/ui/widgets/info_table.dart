@@ -1,3 +1,6 @@
+import 'dart:core';
+import 'dart:core';
+
 import 'package:flutter/material.dart';
 
 class InfoTable extends StatelessWidget {
@@ -9,7 +12,7 @@ class InfoTable extends StatelessWidget {
   final String thirdTitle;
   final String thirdTitleContent;
 
-  InfoTable({
+  InfoTable ({
     @required this.mainTitle,
     @required this.firstTitle,
     @required this.firstTitleContent,

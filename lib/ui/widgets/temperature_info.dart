@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/utils/unitConversion.dart';
 
+import '../../utils/unitConversion.dart';
+
 class TemperatureInfo extends StatelessWidget {
   final double temperature;
   final bool isCelcius;
@@ -22,7 +24,7 @@ class TemperatureInfo extends StatelessWidget {
                 SizedBox(width: 5.0),
                 Text(
                   // convertKelvinToCelcius(),
-                  temperature?.toString(),
+                  convertKelvinToCelcius(temperature)?.toString(),
                   style: Theme.of(context).textTheme.headline,
                 ),
               ],

@@ -1,3 +1,3 @@
 String openWeatherApiKey(){
-  return "YOUR_API_KEY_HERE";
+  return "77616db852dc4a5a486d894323ec139c";
 }

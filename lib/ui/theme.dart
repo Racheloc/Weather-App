@@ -15,7 +15,7 @@ ThemeData buildTheme() {
       ),
       caption: base.caption.copyWith(
         color: const Color(0xFFFFFFFF),
-        fontSize: 20.0
+        fontSize: 25.0
       ),
     );
   }
@@ -24,9 +24,9 @@ ThemeData buildTheme() {
 
   return base.copyWith(
     textTheme: _buildTextTheme(base.textTheme),
-    primaryColor: const Color(0xFF1976D2),
+    primaryColor: const Color(0xFFE23C3C),
     indicatorColor: const Color(0xFFFFFFFF),
-    scaffoldBackgroundColor: const Color(0xFF2196F3),
+    scaffoldBackgroundColor: const Color(0xFFFF6060),
     accentColor: const Color(0xFFFFFFFF),
     iconTheme: IconThemeData(
       color: const Color(0xFFFFFFFF),
